@@ -45,7 +45,7 @@ export function Header() {
                 onClick={() => setOpen(false)}
                 aria-hidden="true"
               />
-              <div className="absolute right-0 top-9 z-40 w-80 rounded-lg border border-edge bg-panel p-3 shadow-xl">
+              <div className="absolute right-0 top-9 z-50 w-80 rounded-lg border border-edge bg-panel p-3 shadow-2xl pointer-events-auto">
                 <h3 className="mb-1 text-[11px] font-bold uppercase tracking-widest text-slate-300">
                   Simulation Provenance
                 </h3>
